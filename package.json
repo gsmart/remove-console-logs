@@ -1,12 +1,16 @@
 {
-  "name": "remove-console-logs",
-  "version": "1.0.8",
+  "name": "remove-console-logs-gracefully",
+  "version": "1.0.9",
   "description": "Remove all sorts of console statements from JavaScript/TypeScript files in a single execution!!",
   "main": "remove-console-logs.js",
   "bin": {
     "remove-console-logs": "remove-console-logs.js"
   },
-  "keywords": [
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/gsmart/remove-console-logs"
+},
+"keywords": [
     "console.log",
     "removal",
     "javascript",
