@@ -1,6 +1,6 @@
 {
   "name": "remove-console-logs-gracefully",
-  "version": "1.0.9",
+  "version": "1.1.1",
   "description": "Remove all sorts of console statements from JavaScript/TypeScript files in a single execution!!",
   "main": "remove-console-logs.js",
   "bin": {
