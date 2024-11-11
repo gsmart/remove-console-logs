@@ -5,6 +5,12 @@
 
 `remove-console-logs` is a CLI tool to easily remove all console statements (e.g., `console.log`, `console.error`, `console.warn`) from JavaScript and TypeScript files in a specified directory. This tool is helpful for cleaning up your codebase before production deployment or for any project that requires the removal of console statements for any other reason.
 
+## What's New in Version 1.1.1
+
+- **New verbose flag added** for detailed analysis of operations, showing the list of modified files and the number of removed console statements.
+- **New about flag added** to display meta-information about the tool, such as version, author, and license.
+- **Overall stability improvements** to enhance user experience.
+
 ## Prerequisites
 
 - **Node.js**: v14.0.0 or higher
@@ -47,6 +53,9 @@ This will remove all `console` statements from the supported files in the curren
 
 - **--target=all**: Removes all console statements (e.g., `console.log`, `console.error`, etc.).
 - **--no-save**: Displays the changes that would be made without actually modifying the files.
+- **--verbose**: Displays detailed output of files modified and the number of console statements removed in a tabular format.
+- **--about**: Displays meta-information about the tool, such as version, author, and license.
+- **--help**: Displays available commands and their descriptions.
 
 ### Examples
 
@@ -66,6 +75,18 @@ This will remove all `console` statements from the supported files in the curren
 
   ```bash
   remove-console-logs --no-save
+  ```
+
+- Display verbose output of modified files:
+
+  ```bash
+  remove-console-logs --verbose
+  ```
+
+- Display tool meta-information:
+
+  ```bash
+  remove-console-logs --about
   ```
 
 ## Platform-Specific Instructions
