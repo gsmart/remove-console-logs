@@ -24,13 +24,13 @@ If you need to install Node.js and npm, you can download and install it from [no
 ### Using npm
 
 ```bash
-npm install -g remove-console-logs
+npm install -g remove-console-logs-gracefully
 ```
 
 ### Using yarn
 
 ```bash
-yarn global add remove-console-logs
+yarn global add remove-console-logs-gracefully
 ```
 
 ## Usage
